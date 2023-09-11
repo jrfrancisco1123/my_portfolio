@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to bottom, rgba(134, 134, 134, 0.5) 0%, rgba(61, 61, 61, 0.5) 100%), url(../images/pexels-simon-berger-1323550.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+.text {
+    font-size: 1.65rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.text-alt {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ---------- header ---------- */
+.nav-bar {
+    background-image: linear-gradient(rgb(58, 58, 58), rgb(10, 10, 10));
+    border: 3px inset rgb(0,0,0);
+    border-radius: 10px;
+    margin: 15px 20px;
+    padding: 25px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+/* ---------- main ---------- */
+.intro, .aboutme {
+    background-image: linear-gradient(rgb(58, 58, 58), rgb(10, 10, 10));
+    border: 3px inset rgb(0,0,0);
+    border-radius: 10px;
+    color: white;
+    width: 1600px;
+    margin: 100px auto;
+    padding: 50px;
+}
+
+.intro h1 {
+    color:rgb(163, 187, 222);
+    font-size: 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.aboutme-content {
+    padding: 25px;
+}
+
+.mypic img {
+    border: 3px solid black;
+    border-radius: 5%;
+    height: 500px;
+    width: 400px;
+    
+}
+
+
+
